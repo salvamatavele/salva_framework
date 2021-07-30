@@ -1,0 +1,32 @@
+{
+    "name": "salva/salva",
+    "description": "Mini framework created with php mvc php-fig",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "App\\": "app/"
+        },
+        "files": [
+            "config/Config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Salvado",
+            "email": "smatavele1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "coffeecode/router": "^1.0",
+        "coffeecode/datalayer": "^1.1",
+        "coffeecode/uploader": "^1.0",
+        "coffeecode/paginator": "^1.0",
+        "rakit/validation": "^1.4",
+        "league/plates": "^3.4",
+        "twig/twig": "^3.0",
+        "eftec/bladeone": "^3.52",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
