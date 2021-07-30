@@ -14,7 +14,11 @@
                 <ul class="uk-navbar-nav uk-visible@s">
                     <li class="uk-active uk-visible@m"><a href="{{ $router->route('home') }}" uk-icon="home"></a></li>
                    @if ($_SESSION['login'] === true)
+                   @if ($_SESSION['image'])
+                   <li><a><img class="uk-border-circle" src="{{ url($_SESSION['image']) }}" width="40" height="40" ></a></li>
+                   @else
                    <li><a><img class="uk-border-circle" src="{{ url($_SESSION['avatar']) }}" width="40" height="40" ></a></li>
+                   @endif
                    <li>
                     <a class="white">{{ $_SESSION['name'] }}</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: bottom-justify;">

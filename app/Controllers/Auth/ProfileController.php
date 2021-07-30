@@ -182,6 +182,8 @@ class ProfileController extends Controller
                         'status'=>'success',
                         'message'=>'The profile photo have been updated successfuly.',
                     ];
+                    $session = new Sessions();
+                    $session->setSession($user);
                 }else {
                     $data = [
                         'status'=>'error',
