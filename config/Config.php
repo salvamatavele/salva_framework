@@ -15,8 +15,8 @@ define("DATA_LAYER_CONFIG", [
     "host" => "localhost",
     "port" => "3306",
     "dbname" => "salva",
-    "username" => "admin",
-    "passwd" => "admin",
+    "username" => "root",
+    "passwd" => "root",
     "options" => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

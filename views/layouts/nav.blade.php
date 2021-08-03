@@ -1,6 +1,4 @@
-@php
-    session_start();
-@endphp
+
 <!-- NAV -->
 <div class="nav" data-uk-sticky="cls-active: uk-background-secondary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
     <div class="uk-container">
@@ -13,7 +11,7 @@
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav uk-visible@s">
                     <li class="uk-active uk-visible@m"><a href="{{ $router->route('home') }}" uk-icon="home"></a></li>
-                   @if ($_SESSION['login'] === true)
+                   @if (isset($_SESSION['login']))
                    @if ($_SESSION['image'])
                    <li><a><img class="uk-border-circle" src="{{ url($_SESSION['image']) }}" width="40" height="40" ></a></li>
                    @else

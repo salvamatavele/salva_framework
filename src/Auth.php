@@ -33,7 +33,7 @@ class Auth
 
     public static function user(): mixed
     {
-        session_start();
+        $session = new Sessions();
         $id = $_SESSION['id'];
         if ($id) {
             $data = (new User())->findById($id)->data();
