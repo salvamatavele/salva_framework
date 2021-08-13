@@ -32,7 +32,7 @@ if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
                         </div>
                     </div>
                     <div class="uk-margin-small">
-                        <label><input class="uk-checkbox" type="checkbox"> Keep me logged in</label>
+                        <label><input class="uk-checkbox" v-model="remember" type="checkbox"> Keep me logged in</label>
                     </div>
                     <div class="uk-margin-bottom">
                         <button type="submit" class="uk-button uk-button-primary uk-border-pill uk-width-1-1">LOG
@@ -136,6 +136,7 @@ if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
                 email: '',
                 password: '',
                 confirm_password: '',
+                remember: '',
                 terms: '',
                 loading: false,
                 loading1: false,

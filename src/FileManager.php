@@ -76,7 +76,7 @@ class FileManager
      *  [type] $size
      * @return void
      */
-    public function storageAs(string $folder = "public/storage", bool $single = true, int $size=1920): mixed
+    public function storageAs(string $folder = "public/storage", bool $single = true, int $size=1920)
     {
         $files = $_FILES;
         $upload = new Image($folder, 'images');
@@ -139,7 +139,7 @@ class FileManager
      *  [type] $size
      * @return void
      */
-    public function saveFile( string $folder = "public/storage", int $size): mixed
+    public function saveFile( string $folder = "public/storage", int $size)
     {
         $files = $_FILES;
         $upload = new File($folder, 'files');
@@ -166,7 +166,7 @@ class FileManager
      *  [type] $size
      * @return void
      */
-    public function saveOther(string $folder = "public/storage", int $size): mixed
+    public function saveOther(string $folder = "public/storage", int $size)
     {
         $files = $_FILES;
         $upload = new Send($folder, 'others', [
@@ -196,7 +196,7 @@ class FileManager
      * @param string $fileName
      * @return void
      */
-    public function deleteFile( string $fileName): mixed
+    public function deleteFile( string $fileName)
     {
  
         if (unlink($fileName)) {

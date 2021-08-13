@@ -94,7 +94,7 @@ class Sessions
      *
      * @return void
      */
-    public function verifyInsideSessions(): mixed
+    public function verifyInsideSessions()
     {
         $this->verifyIdSessions();
         if (!isset($_SESSION['login']) || !isset($_SESSION['canary'])) {
@@ -126,7 +126,7 @@ class Sessions
      * @param  mixed $permition
      * @return mixed
      */
-    public function verifyAdminPermition($permition = []): mixed
+    public function verifyAdminPermition($permition = [])
     {
         $this->verifyIdSessions();
         if (!isset($_SESSION['login']) || !isset($_SESSION['canary'])) {
@@ -168,7 +168,7 @@ class Sessions
      * @param array $permition
      * @return mixed
      */
-    public function verifyPermition($permition = []): mixed
+    public function verifyPermition($permition = [])
     {
         $this->verifyIdSessions();
         if (!isset($_SESSION['login']) || !isset($_SESSION['canary'])) {
@@ -227,7 +227,7 @@ class Sessions
      * @param [type] $column
      * @return mixed
      */
-    public  function auth(string $param, $model, string $column): mixed
+    public  function auth(string $param, $model, string $column)
     {
         # code...
         $params = http_build_query(["clause" => $param]);

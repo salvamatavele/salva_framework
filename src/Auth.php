@@ -31,7 +31,7 @@ class Auth
         }
     }
 
-    public static function user(): mixed
+    public static function user()
     {
         $session = new Sessions();
         $id = $_SESSION['id'];
@@ -73,7 +73,7 @@ class Auth
      * @param  mixed $permition
      * @return void
      */
-    public static function permition(array $permition ): mixed
+    public static function permition(array $permition )
     {
         $session = new Sessions();
         if ($session->verifyPermition($permition)) {
