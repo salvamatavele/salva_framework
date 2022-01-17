@@ -2,7 +2,7 @@
 /**
  * Base URL
  */
-define('__URL__', 'https://desolate-forest-73995.herokuapp.com');
+define('__URL__', 'http://localhost/salva');
 /**
  * dominio
  */

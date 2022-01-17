@@ -8,8 +8,8 @@ if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
     <div class="uk-flex uk-flex-center uk-flex-middle uk-background-muted uk-height-viewport" id="sign"
         data-uk-height-viewport>
         <div class="uk-position-bottom-center uk-position-small uk-visible@m uk-position-z-index">
-            <span class="uk-text-small uk-text-muted">© 2021 All right reserved - <a
-                    href="https://github.com/zzseba78/Kick-Off">salva|framework</a> | Built with <a
+            <span class="uk-text-small uk-text-muted">© 2022 All right reserved - <a
+                    href="https://github.com/salvamatavele/salva_framework">GitHub</a> | Built with <a
                     href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span
                         data-uk-icon="uikit"></span></a></span>
         </div>
@@ -99,7 +99,7 @@ if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
                         </div iv>
                         <div class="uk-margin-bottom">
                             <button type="submit" class="uk-button uk-button-primary uk-border-pill uk-width-1-1">SEND
-                                PASSWORD<div v-if="loading2" uk-spinner></div></button>
+                                <div v-if="loading2" uk-spinner></div></button>
                         </div>
                     </form>
                 </div>

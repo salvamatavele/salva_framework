@@ -8,14 +8,14 @@ class HomeController extends Controller
 {
     public function __construct($router)
     {
-        Auth::check();
+        Auth::guest();
         parent:: __construct($router);
     }
 
     public function index(): void
     {
         echo $this->view->run('home',[
-            'title'=>'salva|framework'
+            'title'=>'dry code|framework'
         ]);
     }
     

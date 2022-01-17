@@ -14,7 +14,7 @@ class AuthController extends Controller
 {
     public function __construct($router)
     {
-
+        
         parent::__construct($router);
     }
 
@@ -56,7 +56,7 @@ class AuthController extends Controller
                     $session = new Sessions();
                     $user = $session->auth($datas['email'], (new User), 'email');
                     $session->setSession($user);
-                    //var_dump($_SESSION['login']);
+                    var_dump($_SESSION["name"]);
                     $data = [
                         'status' => 'success',
                         'message' => 'Loged In Successfuly.'

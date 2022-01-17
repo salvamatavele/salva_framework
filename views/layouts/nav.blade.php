@@ -1,11 +1,10 @@
-
 <!-- NAV -->
 <div class="nav" data-uk-sticky="cls-active: uk-background-secondary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
     <div class="uk-container">
         <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
             <div class="uk-navbar-left">
                 <div class="uk-navbar-item uk-padding-remove-horizontal">
-                    <a class="uk-logo uk-text-default" title="Logo" href=""><img src="img/marketing-logo.svg" alt="">salva|framework</a>
+                    <a class="uk-logo uk-text-default" title="Logo" href="{{$router->route('home')}}"><img src="https://i.ibb.co/b6hWtvB/logo-black.png" alt="">DRY CODE|framework</a>
                 </div>
             </div>
             <div class="uk-navbar-right">
@@ -27,9 +26,7 @@
                         </ul>
                     </div>
                 </li>
-                   @else
-                   <li><a href="{{ $router->route('login') }}">Registar</a></li>
-    
+                   @else    
                    <li><a href="{{ $router->route('login') }}">Login</a></li>  
                    @endif
                     
