@@ -11,7 +11,7 @@
 					<div class="uk-width-1-2@s" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
 						<h6 class="uk-text-primary uk-margin-small-bottom"></h6>
 						<h1 class="uk-margin-remove-top">Innovation in your hands.</h1>
-						<p class="subtitle-text uk-visible@s">Wellcome to DRY CODE mini framework.if you are here it's meaning that  is working. This mini framework was created with php mvc php-fig.</p>
+						<p class="subtitle-text uk-visible@s">Wellcome to DRY CODE mini framework.If you can read this page, it means that this site is working properly. This mini framework was created with php, mvc, php-fig.</p>
 						<a href="#" title="Learn More" class="uk-button uk-button-primary uk-border-pill" data-uk-scrollspy-class="uk-animation-fade">Documentetion</a>
 					</div>
 				</div>
