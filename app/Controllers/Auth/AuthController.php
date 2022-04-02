@@ -118,10 +118,10 @@ class AuthController extends Controller
                         'message' => 'User registered successfuly.',
                     ];
                 } else {
-
                     $data = [
                         'status' => 'error',
                         'message' => 'User not registered successfuly.',
+                        'error' => $user,
                     ];
                 }
             } else {
@@ -165,7 +165,7 @@ class AuthController extends Controller
                     $user = (new User())->find('email=:clause', $params)->fetch();
                     $mail = new Email();
                     $mail->add(
-                        "Recuperação de senha de salva|framework",
+                        "Recuperação de senha de DRYCODE|Framework",
                         "<h2>Hello {$user->name} ,</h2><p>Clique no botão abaixo para recuperar a sua senha. Valido por 20 minutos.</p><a style='color: white; background-color: #5A827F; padding: 5px 11px; border: 2px solid #5a827f;' href='" . $this->router->route('reset', ['token' => $password->token]) . "'>Quero recuperar a senha.</a>",
                         $user->name,
                         $datas['email']

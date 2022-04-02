@@ -1,9 +1,4 @@
-@php
-session_start();
-if ($_SESSION['login'] === true) {
-    header('location: ' . $_SERVER['HTTP_REFERER']);
-}
-@endphp
+
 @extends('layouts.app')
 @section('content')
     <div class="uk-flex uk-flex-center uk-flex-middle uk-background-muted uk-height-viewport" id="reset"
@@ -48,7 +43,7 @@ if ($_SESSION['login'] === true) {
 @push('js')
     <script>
 
-        var app = new Vue({
+        const app = new Vue({
             el: '#reset',
             data: {
                 password: '',
@@ -56,22 +51,22 @@ if ($_SESSION['login'] === true) {
                 method: 'PUT',
                 loading: false
             },
-            
+
             methods: {
                 onReset() {
                     if (this.confirm_password !== '' && this.password !== '') {
-                        var formData = new FormData()
+                        const formData = new FormData();
                         formData.append('confirm_password', this.confirm_password)
                         formData.append('password', this.password)
                         formData.append('_method', this.method)
-                        this.loading =! false
+                        this.loading = !false
                         axios({
-                                method: 'post',
-                                url: "{{ $router->route('password.store') }}",
-                                data: formData
-                            })
+                            method: 'post',
+                            url: "{{ $router->route('password.store') }}",
+                            data: formData
+                        })
                             .then(response => {
-                                this.loading =! true
+                                this.loading = !true
                                 if (response.data.status == 'success') {
                                     if (response.data.message) {
                                         Toast.fire({
@@ -83,7 +78,7 @@ if ($_SESSION['login'] === true) {
                                     }
                                 } else {
                                     if (response.data.errors) {
-                                        var errors = response.data.errors
+                                        const errors = response.data.errors;
                                         let text = ''
                                         for (let i in errors) {
                                             text += errors[i] + '\n';
