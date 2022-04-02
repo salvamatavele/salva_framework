@@ -220,7 +220,8 @@ class AuthController extends Controller
      */
     public function storePassword(array $datas): void
     {
-        $tkn = end(explode("/", $_SERVER['HTTP_REFERER']));
+        $array = explode("/", $_SERVER['HTTP_REFERER']);
+        $tkn = end($array);
         session_start();
         $token = (isset($_SESSION['token'])) ? $_SESSION['token'] : null;
         if (isset($token)) {
