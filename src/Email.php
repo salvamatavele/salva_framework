@@ -3,7 +3,8 @@ namespace Src;
 
 
 use stdClass;
-use Exception;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 
 class Email 
@@ -33,11 +34,12 @@ class Email
         $this->data=new stdClass();
         $this->mail->isSMTP();
         $this->mail->isHTML();
-        $this->mail->setLanguage('br');
+        $this->mail->setLanguage('pt');
 
+        // $this->mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $this->mail->SMTPAuth=true;
-        $this->mail->SMTPSecure="tls";
-        $this->mail->CharSet="utf_8";
+        $this->mail->SMTPSecure= "tls";
+        // $this->mail->CharSet="utf_8";
 
         $this->mail->Host = MAIL['host'];
         $this->mail->Port = MAIL['port'];

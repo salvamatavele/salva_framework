@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f96506c3fe002e709f884a8c58e4051f",
+    "content-hash": "122ea6544312e158db972acdcdd54dfc",
     "packages": [
         {
             "name": "coffeecode/datalayer",
-            "version": "1.1.8",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/datalayer.git",
-                "reference": "52e209190752eccc0bfd8ff3abcdd607ed4c01c1"
+                "reference": "acd0282698a9a16846c0bee72dcec0284fdc6600"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/52e209190752eccc0bfd8ff3abcdd607ed4c01c1",
-                "reference": "52e209190752eccc0bfd8ff3abcdd607ed4c01c1",
+                "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/acd0282698a9a16846c0bee72dcec0284fdc6600",
+                "reference": "acd0282698a9a16846c0bee72dcec0284fdc6600",
                 "shasum": ""
             },
             "require": {
                 "ext-pdo": "*",
-                "php": ">=7.2"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -42,7 +42,7 @@
                 }
             ],
             "description": "The data layer is a persistent abstraction component of your database that PDO",
-            "homepage": "http://www.upinside.com.br",
+            "homepage": "https://www.upinside.com.br",
             "keywords": [
                 "Coffeecode",
                 "crud",
@@ -55,26 +55,26 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/datalayer/issues",
-                "source": "https://github.com/robsonvleite/datalayer/tree/1.1.8"
+                "source": "https://github.com/robsonvleite/datalayer/tree/2.0.6"
             },
-            "time": "2021-03-21T14:00:57+00:00"
+            "time": "2022-04-13T23:41:55+00:00"
         },
         {
             "name": "coffeecode/paginator",
-            "version": "1.0.7",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/paginator.git",
-                "reference": "a6941246f7ccd842be2072d796d4fb448c22cdb1"
+                "reference": "719d7520a9e065d2ba4ac9a8b6ef26022c535b15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/paginator/zipball/a6941246f7ccd842be2072d796d4fb448c22cdb1",
-                "reference": "a6941246f7ccd842be2072d796d4fb448c22cdb1",
+                "url": "https://api.github.com/repos/robsonvleite/paginator/zipball/719d7520a9e065d2ba4ac9a8b6ef26022c535b15",
+                "reference": "719d7520a9e065d2ba4ac9a8b6ef26022c535b15",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -103,26 +103,26 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/paginator/issues",
-                "source": "https://github.com/robsonvleite/paginator/tree/1.0.7"
+                "source": "https://github.com/robsonvleite/paginator/tree/2.0.1"
             },
-            "time": "2021-03-21T17:57:29+00:00"
+            "time": "2022-04-07T00:53:02+00:00"
         },
         {
             "name": "coffeecode/router",
-            "version": "1.0.8",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/router.git",
-                "reference": "29f73e12351a116e9bbb3f695595777a09e18077"
+                "reference": "ac0df93c6dc3f87193a4abe5a8e525cb640b74af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/router/zipball/29f73e12351a116e9bbb3f695595777a09e18077",
-                "reference": "29f73e12351a116e9bbb3f695595777a09e18077",
+                "url": "https://api.github.com/repos/robsonvleite/router/zipball/ac0df93c6dc3f87193a4abe5a8e525cb640b74af",
+                "reference": "ac0df93c6dc3f87193a4abe5a8e525cb640b74af",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -152,29 +152,29 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/router/issues",
-                "source": "https://github.com/robsonvleite/router/tree/1.0.8"
+                "source": "https://github.com/robsonvleite/router/tree/2.0.1"
             },
-            "time": "2021-03-21T18:45:16+00:00"
+            "time": "2022-04-07T12:21:19+00:00"
         },
         {
             "name": "coffeecode/uploader",
-            "version": "1.0.11",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/uploader.git",
-                "reference": "182682c029ff23d28aa8f5d7db2db4c060fc3ae4"
+                "reference": "9046734a4b6b4c6c792ed43e314a9077f63517ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/uploader/zipball/182682c029ff23d28aa8f5d7db2db4c060fc3ae4",
-                "reference": "182682c029ff23d28aa8f5d7db2db4c060fc3ae4",
+                "url": "https://api.github.com/repos/robsonvleite/uploader/zipball/9046734a4b6b4c6c792ed43e314a9077f63517ea",
+                "reference": "9046734a4b6b4c6c792ed43e314a9077f63517ea",
                 "shasum": ""
             },
             "require": {
                 "ext-exif": "*",
                 "ext-gd": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -210,32 +210,30 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/uploader/issues",
-                "source": "https://github.com/robsonvleite/uploader/tree/1.0.11"
+                "source": "https://github.com/robsonvleite/uploader/tree/2.0.3"
             },
-            "time": "2021-03-21T18:57:41+00:00"
+            "time": "2022-04-11T19:50:48+00:00"
         },
         {
             "name": "eftec/bladeone",
-            "version": "3.52",
+            "version": "4.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EFTEC/BladeOne.git",
-                "reference": "a19bf66917de0b29836983db87a455a4f6e32148"
+                "reference": "b8eb8be9952cd0113469e2ec1e406e075ca433ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EFTEC/BladeOne/zipball/a19bf66917de0b29836983db87a455a4f6e32148",
-                "reference": "a19bf66917de0b29836983db87a455a4f6e32148",
+                "url": "https://api.github.com/repos/EFTEC/BladeOne/zipball/b8eb8be9952cd0113469e2ec1e406e075ca433ad",
+                "reference": "b8eb8be9952cd0113469e2ec1e406e075ca433ad",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=5.6"
+                "php": ">=7.2.5"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.16.1",
-                "phpunit/phpunit": "^5.7",
-                "squizlabs/php_codesniffer": "^3.5.4"
+                "phpunit/phpunit": "^8.0"
             },
             "suggest": {
                 "eftec/bladeonehtml": "Extension to create forms",
@@ -268,73 +266,9 @@
             ],
             "support": {
                 "issues": "https://github.com/EFTEC/BladeOne/issues",
-                "source": "https://github.com/EFTEC/BladeOne/tree/3.52"
+                "source": "https://github.com/EFTEC/BladeOne/tree/4.5.3"
             },
-            "time": "2021-04-17T13:49:01+00:00"
-        },
-        {
-            "name": "league/plates",
-            "version": "v3.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/plates.git",
-                "reference": "6d3ee31199b536a4e003b34a356ca20f6f75496a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/plates/zipball/6d3ee31199b536a4e003b34a356ca20f6f75496a",
-                "reference": "6d3ee31199b536a4e003b34a356ca20f6f75496a",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0|^8.0"
-            },
-            "require-dev": {
-                "mikey179/vfsstream": "^1.6",
-                "phpunit/phpunit": "^9.5",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Plates\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jonathan Reinink",
-                    "email": "jonathan@reinink.ca",
-                    "role": "Developer"
-                },
-                {
-                    "name": "RJ Garcia",
-                    "email": "ragboyjr@icloud.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
-            "homepage": "https://platesphp.com",
-            "keywords": [
-                "league",
-                "package",
-                "templates",
-                "templating",
-                "views"
-            ],
-            "support": {
-                "issues": "https://github.com/thephpleague/plates/issues",
-                "source": "https://github.com/thephpleague/plates/tree/v3.4.0"
-            },
-            "time": "2020-12-25T05:00:37+00:00"
+            "time": "2022-03-28T14:33:29+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -459,247 +393,6 @@
                 "source": "https://github.com/rakit/validation/tree/v1.4.0"
             },
             "time": "2020-08-27T05:07:01+00:00"
-        },
-        {
-            "name": "symfony/polyfill-ctype",
-            "version": "v1.25.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "30885182c981ab175d4d034db0f6f469898070ab"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/30885182c981ab175d4d034db0f6f469898070ab",
-                "reference": "30885182c981ab175d4d034db0f6f469898070ab",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "provide": {
-                "ext-ctype": "*"
-            },
-            "suggest": {
-                "ext-ctype": "For best performance"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.23-dev"
-                },
-                "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill for ctype functions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "ctype",
-                "polyfill",
-                "portable"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.25.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-10-20T20:35:02+00:00"
-        },
-        {
-            "name": "symfony/polyfill-mbstring",
-            "version": "v1.25.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/0abb51d2f102e00a4eefcf46ba7fec406d245825",
-                "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "provide": {
-                "ext-mbstring": "*"
-            },
-            "suggest": {
-                "ext-mbstring": "For best performance"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.23-dev"
-                },
-                "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill for the Mbstring extension",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "mbstring",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.25.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-11-30T18:21:41+00:00"
-        },
-        {
-            "name": "twig/twig",
-            "version": "v3.3.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
-                "reference": "972d8604a92b7054828b539f2febb0211dd5945c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/972d8604a92b7054828b539f2febb0211dd5945c",
-                "reference": "972d8604a92b7054828b539f2febb0211dd5945c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.5",
-                "symfony/polyfill-ctype": "^1.8",
-                "symfony/polyfill-mbstring": "^1.3"
-            },
-            "require-dev": {
-                "psr/container": "^1.0",
-                "symfony/phpunit-bridge": "^4.4.9|^5.0.9|^6.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Twig\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
-                    "name": "Twig Team",
-                    "role": "Contributors"
-                },
-                {
-                    "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
-                }
-            ],
-            "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "https://twig.symfony.com",
-            "keywords": [
-                "templating"
-            ],
-            "support": {
-                "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.3.8"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-02-04T06:59:48+00:00"
         }
     ],
     "packages-dev": [],
@@ -710,5 +403,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

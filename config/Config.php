@@ -29,12 +29,12 @@ define("DATA_LAYER_CONFIG", [
      * Email configuration
      */
     define('MAIL', [
-        "host"=>"smtp.zoho.com",
+        "host"=>"smtp.sendgrid.net",
         "port"=>"587",
-        "user"=>"smatavele1@zohomail.com",
-        "passwd"=>"1INmIPqPtKFq",
+        "user"=>"apikey",
+        "passwd"=>"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",
         "from_name"=>"SALVA|FRAMEWORK",
-        "from_email"=>"smatavele1@zohomail.com"
+        "from_email"=>"drycode7@gmail.com"
     ]);
 /**
  * Para acessar css e javascript e img

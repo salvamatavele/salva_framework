@@ -171,7 +171,6 @@ class AuthController extends Controller
                         $datas['email']
                     )->send();
                     if (!$mail->getError()) {
-                        session_start();
                         $_SESSION['token'] = $password->token;
                         $data =  [
                             'status' => 'success',
