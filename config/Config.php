@@ -29,10 +29,10 @@ define("DATA_LAYER_CONFIG", [
      * Email configuration
      */
     define('MAIL', [
-        "host"=>"smtp.sendgrid.net",
+        "host"=>"",
         "port"=>"587",
-        "user"=>"apikey",
-        "passwd"=>"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",
+        "user"=>"",
+        "passwd"=>"c",
         "from_name"=>"SALVA|FRAMEWORK",
         "from_email"=>"drycode7@gmail.com"
     ]);
